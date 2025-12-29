@@ -8,7 +8,7 @@ const wss = new WebSocket.Server({ port: PORT });
 const APCA_API_KEY_ID = process.env.ALPACA_KEY_ID;
 const APCA_API_SECRET_KEY = process.env.ALPACA_SECRET_KEY;
 // 무료/Paper 계좌는 'iex', 유료 계좌는 'sip'
-const ALPACA_FEED = 'iex'; 
+const ALPACA_FEED = 'sip'; 
 const ALPACA_URL = `wss://stream.data.alpaca.markets/v2/${ALPACA_FEED}`;
 
 console.log(`🚀 Proxy Server running on port ${PORT}`);
