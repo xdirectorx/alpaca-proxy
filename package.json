@@ -1,0 +1,16 @@
+{
+  "name": "alpaca-websocket-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket Proxy Server for Alpaca real-time stock data broadcasting",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "node --watch proxy-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
